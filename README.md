@@ -1,7 +1,7 @@
 # Public DAT Catalog
 
 ## Objective
-This repository contains a snapshot of publicly available DAT files to be mainly used on rom managers.
+This repository contains a snapshot of publicly available DAT files to be mainly used by rom managers.
 
 The idea behind this structure is that it can be replicated to keep local collections and rom managers can provide reports and fixes based on dats found on each directory without requiring manual configurations.
 
@@ -38,16 +38,16 @@ basic :
         |- Sega Dreamcast.dat
 ```
 
-This two structures exist due to meet different preferences on navigation.
+This two structures exist to meet different preferences.
 
 ## Navigation
 The root folder contains:
 - A modified file, this file indicates when it was last updated.
-- An index.csv file, this file contains the list of projects.
+- An index.csv file, this file contains only the list of projects.
 
 The root folder of each project contains:
 - A modified file, this file indicates when it was last updated.
-- An index.csv file, this file contains the list of files/directories.
+- An index.csv file, this file contains the list of all files and directories of the project.
 
 The index.csv file contains the next fields:
 - Type : can be FILE or DIRECTORY
