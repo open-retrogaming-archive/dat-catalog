@@ -3,7 +3,9 @@
 ## Objective
 This repository contains a snapshot of publicly available DAT files to be mainly used by rom managers.
 
-The idea behind this structure is that it can be replicated to keep local collections and rom managers can provide reports and fixes based on dats found on each directory without requiring manual configurations.
+It can called an aggregator.
+
+The idea behind the provided structure is that it can be replicated to keep local collections and rom managers can provide reports and fixes based on dats found on each directory without requiring manual configurations.
 
 ## Compatibility
 The directory structure povided by 'root/normalized' is intended as 'DatRoot' for RomVault (https://romvault.com/).
