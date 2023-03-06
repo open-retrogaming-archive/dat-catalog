@@ -5,9 +5,8 @@ This repository contains a snapshot of publicly available DAT files to be mainly
 
 The idea behind this structure is that it can be replicated to keep local collections and rom managers can provide reports and fixes based on dats found on each directory without requiring manual configurations.
 
-## Compatibility with other applications
+## Compatibility
 The directory structure povided by 'root/normalized' is intended as 'DatRoot' for RomVault (https://romvault.com/).
-
 
 ## Directory 
 ```
