@@ -3,12 +3,14 @@
 ## Objective
 This repository contains a snapshot of publicly available DAT files to be mainly used by rom managers.
 
-It can called an aggregator.
+It could initially be called an aggregator.
 
-The idea behind the provided structure is that it can be replicated to keep local collections and rom managers can provide reports and fixes based on dats found on each directory without requiring manual configurations.
+The idea behind this agregator is that it provides a structure that can be used in two different ways:
+- It can be replicated locally on its entirety by just downloading the repository: https://github.com/open-retrogaming-archive/dat-catalog/archive/refs/heads/main.zip
+- It can be replicated partially by using a client supporting the repository file API. Since github repositories don't allow to list directories index.csv files are provided. See section below [Navigation](##Navigation).
 
 ## Compatibility
-The directory structure povided by 'root/normalized' is intended as 'DatRoot' for RomVault (https://romvault.com/).
+The directory structure povided by 'root/normalized' is compatible as 'DatRoot' for RomVault (https://romvault.com/).
 
 ## Directory 
 ```
